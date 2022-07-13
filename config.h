@@ -69,7 +69,7 @@ static const struct arg args[] = {
 	{ cpu_perc,		"  %s%% ",		NULL },
 	{ ram_perc,		"  %s%% ",		NULL },
 	{ run_command,		"  %s%% ",		"pamixer --get-volume" },
-	{ run_command,		"  %s%% ",		"cat /sys/class/power_supply/BAT0/capacity"},
+	{ run_command,		"  %s%% ",		"cat /sys/class/power_supply/BAT0/capacity && battery"},
 	{ keymap,		"  %s ",        	NULL },
 	{ datetime,		"  %s ",   		"%A %B %d %r" },
 	{ username, 		"  %s ",       	NULL },
